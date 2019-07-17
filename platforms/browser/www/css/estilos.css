@@ -1,0 +1,77 @@
+#play{
+font-size: 50px;
+color: black;
+border: black;
+}
+#pause{
+    font-size: 50px;
+    color: black;
+border: black;
+}
+#volumenmas{
+    font-size: 50px;
+    color: black;
+border: black;
+}
+#volumenmenos{
+    font-size: 50px;
+    color: black;
+border: black;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+    text-align:center;
+ }
+ body{
+/*background: rgba(95,130,149,1);
+    background: -moz-linear-gradient(left, rgba(95,130,149,1) 0%, rgba(95,130,149,1) 1%, rgba(122,163,184,1) 99%, rgba(122,163,184,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(95,130,149,1)), color-stop(1%, rgba(95,130,149,1)), color-stop(99%, rgba(122,163,184,1)), color-stop(100%, rgba(122,163,184,1)));
+    background: -webkit-linear-gradient(left, rgba(95,130,149,1) 0%, rgba(95,130,149,1) 1%, rgba(122,163,184,1) 99%, rgba(122,163,184,1) 100%);
+    background: -o-linear-gradient(left, rgba(95,130,149,1) 0%, rgba(95,130,149,1) 1%, rgba(122,163,184,1) 99%, rgba(122,163,184,1) 100%);
+    background: -ms-linear-gradient(left, rgba(95,130,149,1) 0%, rgba(95,130,149,1) 1%, rgba(122,163,184,1) 99%, rgba(122,163,184,1) 100%);
+    background: linear-gradient(to right, rgba(95,130,149,1) 0%, rgba(95,130,149,1) 1%, rgba(122,163,184,1) 99%, rgba(122,163,184,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f8295', endColorstr='#7aa3b8', GradientType=1 );
+    */background-color: #ee5522;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23ca481d' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    
+ }
+ .slidecontainer {
+    width: 100%;
+    color: chartreuse;
+  }
+  
+  .custom-range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .custom-range:hover {
+    opacity: 1;
+  }
+  
+  .custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(8, 235, 16);
+    cursor: pointer;
+  }
+  
+  .custom-range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(32, 241, 39);
+    cursor: pointer;
+  }
